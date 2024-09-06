@@ -10,3 +10,6 @@ mode = "smart"
 binding = "DATABASE"
 database_name = "dogs"
 database_id = "58034b5d-2608-4258-a22a-e0ea075b0e7a"
+
+[build]
+command = "bun run build"
