@@ -1,0 +1,12 @@
+name = "cloudflare-saas-stack"
+compatibility_date = "2024-09-03"
+compatibility_flags = [ "nodejs_compat" ]
+pages_build_output_dir = ".vercel/output/static"
+
+[placement]
+mode = "smart"
+
+[[d1_databases]]
+binding = "DATABASE"
+database_name = "dogs"
+database_id = "58034b5d-2608-4258-a22a-e0ea075b0e7a"
